@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.media.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <MediaView fx:id="mediaView" fitHeight="540.0" fitWidth="960.0" />
+      <Pane layoutX="14.0" layoutY="13.0" prefHeight="514.0" prefWidth="360.0" style="-fx-background-color: #ffffff67; -fx-background-radius: 120px; -fx-border-color: #fff; -fx-border-radius: 120px;">
+         <children>
+            <JFXTextField focusColor="#405aa800" labelFloat="true" layoutX="67.0" layoutY="181.0" prefHeight="39.0" prefWidth="227.0" promptText="USERNAME" style="-fx-border-color: #FFF; -fx-border-radius: 50px;" unFocusColor="#4d4d4d00">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXPasswordField focusColor="#ffffff00" labelFloat="true" layoutX="67.0" layoutY="235.0" prefHeight="39.0" prefWidth="227.0" promptText="PASSWORD" style="-fx-border-color: #FFF; -fx-border-radius: 50px;" unFocusColor="#ffffff00">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </JFXPasswordField>
+            <Label layoutX="115.0" layoutY="63.0" text="Yor logo" textFill="#fc0000">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <JFXButton defaultButton="true" layoutX="107.0" layoutY="308.0" prefHeight="51.0" prefWidth="147.0" ripplerFill="#d02727" style="-fx-background-color: #f00; -fx-background-radius: 50px;" text="SIGNIN" textFill="WHITE" />
+            <JFXButton layoutX="107.0" layoutY="370.0" prefHeight="51.0" prefWidth="147.0" style="-fx-background-radius: 50px;" text="Forgot Password" textFill="WHITE" underline="true" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+   </children>
+</AnchorPane>
